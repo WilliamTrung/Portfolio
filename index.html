@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./css/site.css" type="text/css">    
+</head>
+<body class="bg-main">
+    <header class="fs-3">
+        <nav id="navbar" style="height: 60px;" class="navbar navbar-expand-lg fixed-top">
+            <!-- <ul class="navbar-nav ms-3">
+                <li class="nav-item rounded-3">
+                    <a class="nav-link" href="#aboutme">About me</a>
+                  </li>
+            </ul> -->
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item rounded-3 px-3">
+                    <a class="nav-link text-light" href="https://github.com/WilliamTrung" target="_blank"> 
+                        <i class="fab fa-github"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item rounded-3 px-3 text-lightblue">
+                      <a class="nav-link text-lightblue" href="#skill">Skill</a>
+                    </li>
+                  <li class="nav-item rounded-3 px-3 text-lightblue">
+                    <a class="nav-link text-lightblue" href="#experience">Experience</a>
+                  </li>
+                  <li class="nav-item rounded-3 px-3">
+                    <a class="nav-link  text-lightblue" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </nav>
+    </header>
+    <div class="" style="margin: 80px;">
+
+    </div>
+    <section id="aboutme" class="container bg-aboutme rounded-3 pt-4 mt-5">
+        <div class="row justify-content-center ">
+            <div class="col col-3 my-3">
+                <img class="rounded-3 w-100 h-auto" src="./images/DSC07328.JPG"/>
+            </div>
+            <div class="col col-6 my-auto">
+                <div class="d-flex ">
+                    <p class="text-break text-left fs-3">
+                        description here
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skill" class="container bg-sub my-3 p-3 rounded-3">
+        <label class="h1">Skill</label>
+        <hr />
+        <div class="row">
+            <div id="backend" class="col-lg-6">
+                <label class="skill border border-light p-1 m-1 rounded fs-5 fw-bold">
+                    C#
+                </label>
+                <ul>
+                    <li class="m-1">
+                        Entity Framework Core
+                    </li>
+                    <li class="m-1">
+                        <p class="m-0">ASP.NET Core Projects</p>
+                        <label class="border border-light p-1 m-1 rounded">
+                            MVC (Model-View-Controller)
+                        </label>
+                        <label class="border border-light p-1 m-1 rounded">
+                            Razor Pages
+                        </label>
+                        <label class="border border-light p-1 m-1 rounded">
+                            Web API
+                        </label>
+                    </li>
+                    <li class="m-1">
+                        <p class="m-0">Security (Authentication and Authorization)</p>
+                        <label class="border border-light p-1 m-1 rounded">
+                            Session-based Security
+                        </label>
+                        <label class="border border-light p-1 m-1 rounded">
+                            ASP.NET Identity
+                        </label>
+                        <label class="border border-light p-1 m-1 rounded">
+                            JWT (Json Web Tokens) 
+                        </label>
+                    </li>
+                    <li class="m-1">
+                        <p class="m-0">Azure Services</p>
+                        <label class="border border-light p-1 m-1 rounded">
+                            Azure SQL Database
+                        </label>
+                        <label class="border border-light p-1 m-1 rounded">
+                            Azure Storage
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <div id="hosting">
+                    <label class="skill border border-light p-1 m-1 rounded fs-5 fw-bold">
+                        Hosting
+                    </label>
+                    <ul>
+                        <li class="m-1">
+                            ASP.NET Core on Windows with IIS 10
+                        </li>
+                        <li class="m-1">
+                            Deploy to IIS using Web Deploy 3.6
+                        </li>
+                    </ul>
+                </div>
+                <div id="database">
+                    <label class="skill border border-light p-1 m-1 rounded fs-5 fw-bold">
+                        MSSQL
+                    </label>
+                    <ul>
+                        <li class="m-1">
+                            MSSQL Management Tool
+                        </li>
+                    </ul>
+                </div>
+            </div>           
+        </div>        
+        
+        
+    </section>
+    <section id="experience" class="container bg-sub my-3 py-3 rounded-3">
+        <label class="h1">Working Experience</label>
+        <hr />
+        <label class="text-center fw-bold fs-4">
+            <p>Spring 2022 - C++ Intern Developer at FPT Software HCM (4 months – OJT)</p>
+        </label>
+        <ul>
+            <li>
+                Manual Testing (Fix warnings)
+            </li>
+            <li>
+                Log testcases' results to report files
+            </li>
+            <li>
+                Develop VBA script to fill testcase details in report files.
+            </li>
+        </ul>
+        <hr />
+        <label class="text-center fw-bold fs-4">
+            <p>Winter 2022 - Build, Deploy an ASP.NET Website from scratch (https://ctytnhhkimlien.vn)</p>
+        </label>
+        <ul>
+            <li>
+                Website for products exploring only as customer which is seperated from administrator's management function
+            </li>
+            <li>
+                Using Razor Pages
+            </li>
+            <li>
+                Session-based Authentication and Authorization
+            </li>
+        </ul>
+    </section>
+    <section id="contact" class="container bg-sub my-3 py-3 rounded-3 mb-5">
+        <label class="h1">Contact</label>
+        <hr/>
+        <div>
+            <label class="fs-5 my-auto ms-3">
+                <a class="text-decoration-underline text-white fst-italic" href="mailto:williamthanhtrungq2@gmail.com">Email me!</a>                
+            </label>
+            &emsp;
+                <p class="d-inline fs-6">or</p>
+                &emsp;
+                <p class="d-inline">here is my email:</p>
+                <p class="d-inline fs-5" id="email">williamthanhtrungq2@gmail.com</p>
+                <button class="d-inline border border-0 fs-4 rounded-3 ms-1" onclick="copyToClipboard('#email')">
+                    <i class="fa-solid fa-copy rounded-3"></i>
+                </button>
+        </div>
+        <div>
+            <label class="text-center ms-3 mt-3">
+                Phone: <p class="d-inline fs-5">(+84)908 941761</p>
+            </label>
+        </div>
+    </section>    
+</body>
+<foot>
+    <script src="./js/site.js"></script>
+</foot>
+</html>
