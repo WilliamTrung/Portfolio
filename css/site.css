@@ -30,7 +30,8 @@ nav {
     display: none;
   }
   .bg-main{
-    background-color: #002451;
+    /* background-color: #002451; */
+    background-color: #303030;
   }
   .bg-sub{
     background-color: #00469d;
@@ -39,4 +40,7 @@ nav {
   .bg-aboutme{
     background-color: #0068e9;
     color: whitesmoke;
+  }
+  .heading{
+    background-color: #e09e2d;
   }
