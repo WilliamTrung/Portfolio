@@ -75,4 +75,7 @@ nav {
   .image-wrapper:hover .overlay-text {
     opacity: 1;
   }
+  #kimliencom img{
+    background-color: #cfdfef;
+  }
   
